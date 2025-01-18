@@ -1,4 +1,4 @@
-package Math_qns;
+package math_leetcode;
 public class palindrome {
 
     //This is a leetcode solution to check if an input number is a palindorme or not 

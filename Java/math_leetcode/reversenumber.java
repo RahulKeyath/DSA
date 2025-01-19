@@ -1,4 +1,4 @@
-//This is a leetcode solution to check if an input number is a palindorme or not 
+//This is a leetcode solution to find the reverse of an integer. 
 //(Solved by Rahul Krishnan M).
 package math_leetcode;
 

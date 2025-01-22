@@ -9,7 +9,7 @@ class Solution{
         return (b==0) ? a : gcd(b,a%b); 
     }
 } 
-public class GCD_optimized {
+public class GCD_Optimized {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);                   //Scanner class object created
         System.out.print("Input value 1: ");                 

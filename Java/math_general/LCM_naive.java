@@ -6,7 +6,7 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-public class LCM_naive {          
+public class LCM_Naive {          
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         System.out.print("Input first number: ");

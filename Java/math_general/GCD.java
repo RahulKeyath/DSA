@@ -1,23 +1,15 @@
 import java.util.Scanner;
-import java.lang.Math;
-//This is a Java solution to find the greatest common divisor of two numbers.
+//This is an optimized Java solution to find the greatest common divisor of two numbers.
 //By Rahul Krishnan M
 
 
 class Solution{                                                 
     public int gcd(int a, int b) {                              //function for finding gcd
-       int res = Math.min(a,b);
-       while (res>0){
-        if (a%res == 0 && b%res == 0){
-            break;
-        }
-        res--;
-       }
-         
-       return res;
+       
+        return (b==0) ? a : gcd(b,a%b); 
     }
 } 
-public class GCD_Naive {
+public class GCD {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);                   //Scanner class object created
         System.out.print("Input value 1: ");                 

@@ -9,7 +9,7 @@ class Solution{
         return (b==0) ? a : gcd(b,a%b); 
     }
 } 
-public class GCD {
+class GCD {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);                   //Scanner class object created
         System.out.print("Input value 1: ");                 
@@ -17,7 +17,7 @@ public class GCD {
         System.out.print("Input value 2: ");
         int input2 = in.nextInt();
 
-        Solution s1 = new Solution();
-        System.out.println("The gcd of the two numbers is: "+s1.gcd(input1,input2)); //prints the gcd of two numbers
+        Solution sol = new Solution();
+        System.out.println("The gcd of the two numbers is: "+sol.gcd(input1,input2)); //prints the gcd of two numbers
     }
 }
